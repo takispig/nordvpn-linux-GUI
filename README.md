@@ -5,4 +5,11 @@ The app is written in Python, and specifically the GUI is with tkinter package. 
 
 How to run the app:
 1. download the project to a local repository
-2. 
+2. open the terminal and make the python file executable by typing:
+    > chmod +x ./path/to/nordvpn-linux-GUI/NordVPN.py
+3. run the script and the app will launch
+(4. you can create a Link/Shortcut of the script (NordVPN.py) and open it from your Desktop just like any other app)
+
+As I already mentioned, the script is just a tool to help me for my everyday use, and i share it here in case anyone
+finds it useful. If you experience any trouble, please let me know, there is already a button in the app to navigate
+you here and file an issue or contact me.
