@@ -18,7 +18,7 @@ How to run the app:
 
 ## Some Screenshots and explanations
 The app right now looks like this:
-XXXXXX
+![alt text](https://github.com/takispig/nordvpn-linux-GUI/blob/media/App_connected.png?raw=true)
 
 ## Last words
 As I already mentioned, the script is just a tool to help me for my everyday use, and i share it here in case anyone finds it useful. If you experience any trouble, please let me know, there is already a button in the app to navigate you here and file an issue or contact me.
