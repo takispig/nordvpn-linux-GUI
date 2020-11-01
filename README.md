@@ -3,6 +3,7 @@ This is a small GUI app i created to make my life a bit easier while using the N
 
 ## Resources
 The app is written in Python, and specifically the GUI is with tkinter package. So expect that the app is lightweight.
+**Notice:** In order to work this app, you have to already have installed the Nord VPN service in your System. 
 
 ## Installation
 How to run the app:
@@ -28,6 +29,7 @@ How to run the app:
 - **Quick-connect:**  connects to the nearest server
 - **Status:**         displays the current connection state
 - **Disconnect:**     disconnects from Nord VPN's server
+- **Flags:**          by clicking on the flag buttons you can connect to this country
 - **Terminal:**       In app there is a build-in Terminal, just your regular terminal, for convenience reasons
 - **Input-Box:**      In there you can type a country to connect (i.e. Sweden) or specify it by typing a server number (i.e. US 6200)
 
