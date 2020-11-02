@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=NordVPN.py
+Exec=/usr/bin/python3.8 /path/to/nordvpn-linux-GUI/NordVPN.py
+Path=/path/to/nordvpn-linux-GUI/
+Icon = /path/to/nordvpn-linux-GUI/images/nordvpn.png
+Terminal=False
+Type=Application
+Categories=Utility;Application;
+Keywords=console;python;
