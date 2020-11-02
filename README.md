@@ -14,7 +14,8 @@ How to run the app:
     ```
     please change the /path/to/ with your own directory
 3. run the NordVPN.py (by clicking the file, or by typing it in terminal) and the app will launch
-4. OPTIONAL: you can create a Link/Shortcut of NordVPN.py and open it from your Desktop just like any other app
+4. OPTIONAL: - you can create a Link/Shortcut of NordVPN.py and open it from your Desktop just like any other app OR
+             - (tested under ubuntu 20.04) you can create an icon app, accessible from the Applications (using i.e. Super key) by adding the NordVPN.desktop file in `/usr/share/applications/`, and before that change the `Exec=/usr/bin/python3.8 /path/to/NordVPN.py` from NordVPN.desktop, to whereever your python (`whereis python`) and whereever your NordVPN.py destination is. Minor adjustments may be needed too, depending on your System.
 
 ## Screenshots
 <p style="text-align: center">
@@ -29,7 +30,7 @@ How to run the app:
 - **Quick-connect:**  connects to the nearest server
 - **Status:**         displays the current connection state
 - **Disconnect:**     disconnects from Nord VPN's server
-- **Flags:**          by clicking on the flag buttons you can connect to this country
+- **Flags:**          by clicking on the flag buttons you can connect to the country you chose
 - **Terminal:**       In app there is a build-in Terminal, just your regular terminal, for convenience reasons
 - **Input-Box:**      In there you can type a country to connect (i.e. Sweden) or specify it by typing a server number (i.e. US 6200)
 
