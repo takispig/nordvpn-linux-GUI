@@ -3,7 +3,7 @@ This is a small GUI app i created to make my life a bit easier while using the N
 
 ## Resources
 The app is written in Python, and specifically the GUI is with tkinter package. So expect that the app is lightweight.
-**Notice:** In order to work this app, you have to already have installed the Nord VPN service in your System. 
+**Notice:** In order to work this app, you have to already have installed the Nord VPN service in your System (for that please refer to the nordvpn website).
 
 ## Installation
 How to run the app:
@@ -14,12 +14,16 @@ How to run the app:
     ```
     please change the /path/to/ with your own directory
 3. run the NordVPN.py (by clicking the file, or by typing it in terminal) and the app will launch
-4. OPTIONAL: - you can create a Link/Shortcut of NordVPN.py and open it from your Desktop just like any other app OR
-             - (tested under ubuntu 20.04) you can create an icon app, accessible from the Applications (using i.e. Super key) by adding the NordVPN.desktop file in `/usr/share/applications/`, and before that change the `Exec=/usr/bin/python3.8 /path/to/NordVPN.py` from NordVPN.desktop, to whereever your python (`whereis python`) and whereever your NordVPN.py destination is. Minor adjustments may be needed too, depending on your System.
+4. OPTIONAL: <ol type="a">
+                <li>you can create a Link/Shortcut of NordVPN.py and open it from your Desktop just like any other app OR </li>
+                <li>(tested under ubuntu 20.04) you can create an icon app, accessible from the Applications (using i.e. Super key) by adding the NordVPN.desktop file in `/usr/share/applications/`, and before that change the `Exec=/usr/bin/python3.8 /path/to/NordVPN.py` from NordVPN.desktop, to whereever your python (`whereis python`) and whereever your NordVPN.py destination is. Minor adjustments may be needed too, depending on your System.</li>
+                Step 4 (ii) would look like this:<br>
+                <img src="https://github.com/takispig/nordvpn-linux-GUI/blob/media/Search_in_system.png" width="60%" alt="How app is displayed when searched in applications">
+             </ol>
 
 ## Screenshots
 <p style="text-align: center">
-    <img src="https://github.com/takispig/nordvpn-linux-GUI/blob/media/App_connected.png" width="32%"               alt="State when the app is connected">
+    <img src="https://github.com/takispig/nordvpn-linux-GUI/blob/media/App_connected.png" width="32%" alt="State when the app is connected">
     <img src="https://github.com/takispig/nordvpn-linux-GUI/blob/media/App_disconnected.png" width="32%" alt ="State when the app is disconnected">
     <img src="https://github.com/takispig/nordvpn-linux-GUI/blob/media/App_terminal.png" width="32%" alt="Example of the terminal use build in app">
     <img src="https://github.com/takispig/nordvpn-linux-GUI/blob/media/App_connect_country.png" width="48%" alt="Connect to a country just by typing a Country or a Country-Code">
