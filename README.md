@@ -7,7 +7,10 @@ The app is written in Python, and specifically the GUI is with tkinter package. 
 
 ## Installation
 How to run the app:
-1. download the project to a local repository
+1. download the project to a local repository:
+    ```bash
+    git clone https://github.com/takispig/nordvpn-linux-GUI.git
+    ```
 2. open the terminal and make the python file and the script executables by typing:
     ```bash
     chmod +x ./path/to/nordvpn-linux-GUI/NordVPN.py && chmod +x ./path/to/nordvpn-linux-GUI/script.sh
@@ -40,7 +43,7 @@ How to run the app:
 
 
 ## Feedback
-If you experience any trouble, please let me know, there is already a button in the app to navigate you here to file an issue or contact me.
+If you experience any trouble, please let me know, there is already a button in the app to navigate you here, in order to create an issue or to contact me.
 
 ## License:
 [MIT](https://github.com/takispig/nordvpn-linux-GUI/blob/main/LICENSE) License
